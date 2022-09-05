@@ -316,16 +316,10 @@ footer {
 }
 
 @media (min-width: 900px) {
-    .primer-main {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
 
-    .segundo-main {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+
+    .nav-header {
+        margin-top: 1rem;
     }
 
     article {
