@@ -32,6 +32,10 @@ header {
     width: 10rem;
 }
 
+#Buscar input {
+    border: none;
+}
+
 .Busqueda {
     padding-left: 0.2rem;
     padding-right: 0.2rem;
@@ -105,7 +109,6 @@ article {
 .truck {
     margin-top: -0.1rem;
     padding-top: 0.938rem;
-    font-family: var(--primaryFont);
     font-size: var(--sm);
     background-color: white;
     color: var(--verde);
@@ -197,12 +200,11 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-start;
-        margin-right: 1rem;
+        margin-right: -1rem;
     }
 
     .logo {
-
-        width: 50%;
+        width: 50vw;
         flex-grow: 1;
         margin-left: 1rem;
     }
@@ -212,7 +214,10 @@ footer {
     }
 
     .Busqueda {
+        margin-left: -0.6rem;
         width: auto;
+        border: none;
+        border-radius: 0.25rem;
     }
 
     #Buscar {
@@ -220,7 +225,9 @@ footer {
         border-radius: 0.25rem;
         margin-left: 2rem;
         flex-grow: 1;
+        border: none;
     }
+
 
     #CT {
         margin-top: 1rem;
@@ -230,7 +237,6 @@ footer {
         display: flex;
         justify-content: end;
         padding-right: 1rem;
-
     }
 
     .preciosYdescuentos {
@@ -248,7 +254,7 @@ footer {
 
     .logo {
         display: flex;
-        width: 45vw;
+        width: 40vw;
         height: auto;
         flex-grow: 3;
     }
@@ -323,9 +329,6 @@ footer {
     }
 
     article {
-        display: flex;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 22%;
-        height: auto;
     }
 }
