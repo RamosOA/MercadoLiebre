@@ -89,7 +89,6 @@ main {
 }
 
 article {
-
     margin-bottom: 0.625rem;
 }
 
@@ -146,6 +145,7 @@ article {
     color: var(--gris-oscuro);
     background-color: white;
     padding: 0.938rem;
+    display: none;
 }
 
 footer {
@@ -245,9 +245,11 @@ footer {
         background-color: white;
     }
 
+
 }
 
 @media (min-width: 640px) {
+
     .barras {
         display: none;
     }
@@ -314,12 +316,14 @@ footer {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 46%;
         height: auto;
+
     }
 
     .descripciones {
         display: block;
     }
 }
+
 
 @media (min-width: 900px) {
 
@@ -330,5 +334,32 @@ footer {
 
     article {
         width: 22%;
+    }
+
+    .descripciones {
+        display: none;
+        background-color: white;
+    }
+
+}
+
+@media(hover:hover) {
+
+    .primer-main:hover {
+        align-items: center;
+    }
+
+    .segundo-main:hover {
+        align-items: center;
+    }
+
+    article:hover .descripciones {
+        display: block;
+    }
+
+    article:hover .fa-truck {
+        box-shadow: 0rem 0rem 1rem rgba(100, 100, 100, 1);
+        transform: rotateY(-180deg);
+        transition: all 1000ms;
     }
 }
