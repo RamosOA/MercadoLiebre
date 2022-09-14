@@ -345,18 +345,12 @@ footer {
     .section-footer {
         display: flex;
         flex-direction: row;
-
     }
 
     .footer-section {
         width: 33%;
         justify-content: space-between;
     }
-
-    /* .footer {
-        
-    } */
-
 }
 
 @media(hover:hover) {
