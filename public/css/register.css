@@ -30,6 +30,7 @@ header {
 
 #Buscar {
     width: 10rem;
+    height: 2rem;
 }
 
 .Busqueda {
@@ -37,6 +38,7 @@ header {
     padding-right: 0.2rem;
     margin-right: 1rem;
     width: 2rem;
+    height: 2rem;
 }
 
 
@@ -162,7 +164,7 @@ footer {
 
 
 
-@media (min-width: 361px) {
+@media (min-width: 300px) {
     header {
         padding-top: 1rem;
     }
@@ -267,6 +269,17 @@ footer {
 }
 
 @media (min-width: 900px) {
+    .logo {
+        width: 30vw;
+    }
+
+    #Buscar {
+        width: 20vw;
+    }
+
+    #CT {
+        width: 20vw;
+    }
 
 
     .nav-header {

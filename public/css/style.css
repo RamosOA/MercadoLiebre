@@ -30,10 +30,13 @@ header {
 
 #Buscar {
     width: 10rem;
+    height: 2rem;
+
 }
 
 #Buscar input {
     border: none;
+
 }
 
 .Busqueda {
@@ -41,6 +44,7 @@ header {
     padding-right: 0.2rem;
     margin-right: 1rem;
     width: 2rem;
+    height: 2rem;
 }
 
 
@@ -181,7 +185,7 @@ footer {
 
 
 
-@media (min-width: 361px) {
+@media (min-width: 300px) {
     header {
         padding-top: 1rem;
     }
@@ -327,7 +331,17 @@ footer {
 
 
 @media (min-width: 900px) {
+    .logo {
+        width: 30vw;
+    }
 
+    #Buscar {
+        width: 20vw;
+    }
+
+    #CT {
+        width: 20vw;
+    }
 
     .nav-header {
         margin-top: 1rem;
@@ -367,8 +381,15 @@ footer {
         display: block;
     }
 
+
     article:hover .fa-truck {
+        display: flex;
         box-shadow: 0rem 0rem 1rem rgba(100, 100, 100, 1);
+        font-size: 1.5rem;
+        width: 3rem;
+        height: 3rem;
+        padding-right: 1rem;
+        align-items: center;
         transform: rotateY(-180deg);
         transition: all 1000ms;
     }
