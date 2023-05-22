@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 
 app.use(express.static('public'));
-app.set('puerto',process.env.PORT || 3001)
+app.set('puerto',process.env.PORT || 3000)
 
 
 
